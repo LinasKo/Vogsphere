@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=New+Tegomin);
+
+@font-face { font-family: FB; src: url('fonts/squealer.ttf'); }
+@font-face { font-family: FD; src: url('fonts/HigherJump.ttf'); }
+
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+#spaaaaaace {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+  background-image: url("planet_vogsphere.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exemplar {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+
+  font-family: "New Tegomin";
+  font-size: larger;
+  font-weight: bold;
+  text-shadow: 0 0 1px white;
+
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#lectern {
+  z-index: 100;
+  font-family: "FB";
+  font-size: 4rem;
+  margin: 100px;
+  visibility: hidden;
+}
+
+input {
+  font-family: "FD";
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(132, 0, 255);
+  background-color: rgba(0, 0, 0, 0.616);
+  border-radius: -12px;
+  padding: 10px;
+  z-index: 100;
+}
+input:focus {
+  outline-color: rgb(132, 0, 255);
+  outline-width: 7px;
+}
+
+#whispers {
+  color: darkred;
+  /* text-shadow: 0 0 2px black; */
+  z-index: 100;
+  visibility: hidden;
+  margin: 10px;
+}
