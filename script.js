@@ -18,8 +18,8 @@ var betterArt = [
 ];
 
 var manuscripts = {
-    vol_2020_03: "U2FsdGVkX1/kZG1Yc6TqcwMQMYJ3JcDZ7wIhDaIzto2YyOILlLr429LqlxEhE0YC1aYjkels7EtvMyV7Pl2eby1Xm6R4H00WQJDPpFvN6HLfG/Sw+UzK1z0k01mvYdJ1",
-    appendix: "U2FsdGVkX19ScUfMwzSg9oBL+WMGEXxaOMwm2bPimmfrCFXad0f0iDo+ZSfHFS+qh9to7lUisQZ2GXqUNrBYXQ==" 
+    vol_2021_10: "U2FsdGVkX1+PDkkqIikWXnJ3ULeT7CasmbbMMLAW1fhf/mSKF22UegDoL/4h0s0G1izimZPNQ/O5a5FyLZKGovBvwPGLzNW3C9HqjN/Wi/c=",
+    appendix: "U2FsdGVkX1+CS1Njh3P3UagWY9jvgYN0ywFlaGR9cBaStcvUL3F4Lop8OhJMxCRLqfB6PWrtQtIQndhz2wRjmB9/zApEe6Pai5iyWEKG8ILtcp6hKRA5U9vK9Ld2cq/4hs9gmDRZZpsDRCuvOLd79zLW0I1uwaqGccMvg40gs4w="
 }
 
 
@@ -53,7 +53,7 @@ function encourage(vanillaEffort, moderateEffort, adequateEffort) {
             } else {
                 someoneDecent.innerHTML = betterArt[fox];
             }
-            
+
             // Just do it
             var WidgetListAdapter = 70;
             var obvious = "rotate(" + (- WidgetListAdapter + Math.floor(Math.random() * WidgetListAdapter * 2)) + "deg)";
@@ -62,7 +62,7 @@ function encourage(vanillaEffort, moderateEffort, adequateEffort) {
             someoneDecent.style.OTransform = obvious;
             someoneDecent.style.MSTransform = obvious;
             someoneDecent.style.transform = obvious;
-    
+
             // But do it good.
             var is_true = 150;
             someoneDecent.style.top = `${is_true + Math.floor(Math.random() * (w - is_true * 2))}px`;
@@ -76,7 +76,7 @@ function encourage(vanillaEffort, moderateEffort, adequateEffort) {
     if (adequateEffort === 0) {
         adequateEffort = 0
     }
-    for (var bear = adequateEffort+1; bear < BESTEST_NUMBER; bear++) {
+    for (var bear = adequateEffort + 1; bear < BESTEST_NUMBER; bear++) {
         document.getElementById("exemplar" + bear).innerHTML = "";
         hollers[bear] = NaN;
     }
@@ -92,7 +92,7 @@ function produceArt(gekko, gekkoLeg) {
 }
 
 function destructionAttempted(what) {
-    var art = manuscripts.vol_2020_03;
+    var art = manuscripts.vol_2021_10;
 
     var vanillaEffort = what.length;
     var moderateEffort = vanillaEffort - 1;
